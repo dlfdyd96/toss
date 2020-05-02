@@ -2,9 +2,14 @@
 
 ## Todo List
 - [✔] Vue Setting
-- [🛠] App
-- [🛠] Home
+- [✔] App
+- [✔] Home
 - [❌] Login
+- [🛠] 문제풀기
+- [❌] 학습현황
+- [❌] 시험 일정
+- [❌] 시험 지원하기
+- [🤔] 커뮤니티
 
 ## [✔] Vue Setting
 [Vue CLI](https://cli.vuejs.org/) 로 'tos' 프로젝트를 생성
@@ -31,7 +36,7 @@ vue add vuetify
 ? Choose a preset: Default (recommended)
 ```
 
-## [🛠] App
+## [✔] App
 ```router-view``` 설정
 
 📁 Router<br>
@@ -52,9 +57,30 @@ vue add vuetify
 - Nav-bar 설정 해야함 (뭘 넣을지 모르겠넴)
 
 
-## [🛠] Home
+## [✔] Home
 - Background 설정
-- [🛠]v-for로 menu 설정
+- [✔]v-for로 menu 설정
   - ```['문제풀기', '학습현황', '시험 일정', '토스 지원하기']```
 
 ## [❌] Login
+
+## [🛠] Solve
+### Part1
+- 🛠⏱ Timer Component 따로 팠다. 아우 진짜 귀찮아 [(참고사이트)](https://moonspam.github.io/Lets-make-a-Timer/)
+  - ✔ props 로 시간 떤져주면 그 시간에 맞춰 timer 작동
+  - 🛠 mounted 되면 Description 읽기 -> 45초 Preparation -> 45초 Response
+  - ❌녹음버튼 -> 끝나면 밑에 재생버튼
+- 🛠 Amazon Polly TTS(Text-To-Speach) 연동
+  - ❌서버..를 파야하네? [(참고 사이트)](https://medium.com/@anaptfox/getting-started-with-amazon-polly-using-node-js-345e84dbd23d) 아자아자!
+  - 🛠 문장마다 TTS 해주는 기능 추가하자.
+
+
+### Part2
+
+### Part3
+
+### Part4
+
+### Part5
+
+### Part6

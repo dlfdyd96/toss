@@ -20,7 +20,7 @@ export default {
 
   components: {
     appbar: Appbar,
-    myfooter: Footer
+    myfooter: Footer,
   },
 
   data: () => ({
