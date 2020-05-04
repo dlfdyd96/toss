@@ -1,0 +1,21 @@
+{
+    "directions" : "Directions: In this part of the test, you will read aloud the text on the screen. You will have 45 seconds to prepare. Then you will have 45 seconds to read the text aloud.",
+    "sentences": [
+        {
+            "id" : 1,
+            "sentence" : "Welcome to the Murfree Show! I am your host Connor Murfree. I’m sure you all know tonight is our finale for season 3. We have some great entertainment for you on tonight’s show. So for the last time, let me welcome my favorite, fabulous, marvelous and terrific co-host Brooke Grimsey!"
+        },
+        {
+            "id" : 2,
+            "sentence" : "Welcome to the Murfree Show! I am your host Connor Murfree. I’m sure you all know tonight is our finale for season 3. We have some great entertainment for you on tonight’s show. So for the last time, let me welcome my favorite, fabulous, marvelous and terrific co-host Brooke Grimsey!"
+        },
+        {
+            "id" : 3,
+            "sentence" : "Welcome to the Murfree Show! I am your host Connor Murfree. I’m sure you all know tonight is our finale for season 3. We have some great entertainment for you on tonight’s show. So for the last time, let me welcome my favorite, fabulous, marvelous and terrific co-host Brooke Grimsey!"
+        },
+        {
+            "id" : 4,
+            "sentence" : "Welcome to the Murfree Show! I am your host Connor Murfree. I’m sure you all know tonight is our finale for season 3. We have some great entertainment for you on tonight’s show. So for the last time, let me welcome my favorite, fabulous, marvelous and terrific co-host Brooke Grimsey!"
+        }
+    ]
+}

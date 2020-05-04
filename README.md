@@ -69,13 +69,16 @@ vue add vuetify
 - 🛠⏱ Timer Component 따로 팠다. 아우 진짜 귀찮아 [(참고사이트)](https://moonspam.github.io/Lets-make-a-Timer/)
   - ✔ props 로 시간 떤져주면 그 시간에 맞춰 timer 작동
   - 🛠 mounted 되면 Description 읽기 -> 45초 Preparation -> 45초 Response
+    - ❔ 왜 f5하면 찾을 수 없다고 하는거지? <br><h2>🤔</h2>
   - ❌녹음버튼 -> 끝나면 밑에 재생버튼
-- 🛠 Amazon Polly TTS(Text-To-Speach) 연동
-  - ❌서버..를 파야하네? [(참고 사이트)](https://medium.com/@anaptfox/getting-started-with-amazon-polly-using-node-js-345e84dbd23d) 아자아자!
-  - 🛠 문장마다 TTS 해주는 기능 추가하자.
+- ✔ 문장마다 TTS 해주는 기능 추가하자.
+  - [Window.speechSynthesis](https://developer.mozilla.org/en-US/docs/Web/API/Window/speechSynthesis)를 참고하여 TTS 개발 함 (Explore 는 안 될꺼야 아마)
 
 
 ### Part2
+- ❌ Description 추가
+- ❌ 그림 추가
+- ❌ Timer 설정
 
 ### Part3
 

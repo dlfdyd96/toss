@@ -40,7 +40,7 @@ export default {
         title : 'PREPARATION',
         timer: null,
         resetButton: false,
-        totalTime: 0
+        totalTime: 0,
     }),
 
     mounted() {
@@ -72,12 +72,13 @@ export default {
               - 00:00:00 형태로 출력
               - props로 받은 totalTime 만큼 돌기 (seconds 단위)
             */
+           this.totalTime = parseInt(this.preparationTime); // TODO : later remove this.
            console.log('startTime!!')
            this.timer = setInterval(() => this.countDown(), 1000);
            this.resetButton = true;
         },
         stopTimer: function() {
-            this.totalTime = parseInt(this.preparationTime); // TODO : later remove this.
+            // this.totalTime = parseInt(this.preparationTime); // TODO : later remove this.
             clearInterval(this.timer);
             this.timer = null;
             this.resetButton = true;
@@ -88,7 +89,7 @@ export default {
         resetTimer: function() {
             console.log('End time');
             clearInterval(this.timer);
-            this.totalTime = parseInt(this.preparationTime);
+            // this.totalTime = parseInt(this.preparationTime);
             this.timer = null;
             this.resetButton = false;
         },
