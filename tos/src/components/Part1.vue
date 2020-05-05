@@ -72,7 +72,7 @@ export default {
   },
   mounted() {
     /* directions 발음 시작 */
-    // this.speech(this.directions);
+    // window.onload = this.speech(this.directions);
   },
 
   methods: {
@@ -92,13 +92,13 @@ export default {
     setVoiceList : function(){
       console.log(' - set Voice List Start');
       this.voices = window.speechSynthesis.getVoices();
-      console.log(' - set Voice List End');
+      console.log(' - set Voice List End', this.voices);
     },
     speech: function(text, index) {
       console.log(index);
       this.activateIndex = index;
       // console.log('ㅁㄴㅇㄹ: '+ this.activateIndex)
-      console.log('clicked text!')
+      // console.log('clicked text!')
       if(!window.speechSynthesis){
         alert('음성 재생을 지원하지 않는 브라우저 입니다. 최신 브라우저를 이용 하십시오.');
         return ;
@@ -131,7 +131,7 @@ export default {
       }
       utterThis.lang = 'en-US';
       utterThis.pitch = 1;
-      utterThis.rate = 1;
+      utterThis.rate = 0.8;
       window.speechSynthesis.speak(utterThis);
     },
     // selectedSent: function(index){

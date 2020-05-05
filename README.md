@@ -73,16 +73,25 @@ vue add vuetify
   - ❌녹음버튼 -> 끝나면 밑에 재생버튼
 - ✔ 문장마다 TTS 해주는 기능 추가하자.
   - [Window.speechSynthesis](https://developer.mozilla.org/en-US/docs/Web/API/Window/speechSynthesis)를 참고하여 TTS 개발 함 (Explore 는 안 될꺼야 아마)
+- ✔ 문제 여러 개 나열 하자.
+  - 🤔현재 풀고 있는 문제번호를 localStorage 에 저장하고,<br> part1 들어갈때 마다 localStorage에서 꺼낼 까?
+  - ✔ 앞으로, 뒤로 추가하자.
+  - ❌문제 목록 추가하자.
 
 
-### Part2
+### [🛠]Part2
+- ✔ Description 추가
+- ✔ 그림 추가
+- 🛠 Timer 설정
+
+### [🛠]Part3
+- ✔ Description 추가
+- ✔ 문제 추가
+- 🛠 Timer 설정
+
+### [❌]Part4
 - ❌ Description 추가
-- ❌ 그림 추가
-- ❌ Timer 설정
-
-### Part3
-
-### Part4
+- ❌ 표 추가
 
 ### Part5
 

@@ -1,0 +1,65 @@
+{
+    "part1" : {
+        "directions" : "Directions: In this part of the test, you will read aloud the text on the screen. You will have 45 seconds to prepare. Then you will have 45 seconds to read the text aloud.",
+        "sentences": [
+            {
+                "id" : 1,
+                "sentence" : "Welcome to the Murfree Show! I am your host Connor Murfree. I’m sure you all know tonight is our finale for season 3. We have some great entertainment for you on tonight’s show. So for the last time, let me welcome my favorite, fabulous, marvelous and terrific co-host Brooke Grimsey!"
+            },
+            {
+                "id" : 2,
+                "sentence" : "Welcome to the Murfree Show! I am your host Connor Murfree. I’m sure you all know tonight is our finale for season 3. We have some great entertainment for you on tonight’s show. So for the last time, let me welcome my favorite, fabulous, marvelous and terrific co-host Brooke Grimsey!"
+            },
+            {
+                "id" : 3,
+                "sentence" : "Welcome to the Murfree Show! I am your host Connor Murfree. I’m sure you all know tonight is our finale for season 3. We have some great entertainment for you on tonight’s show. So for the last time, let me welcome my favorite, fabulous, marvelous and terrific co-host Brooke Grimsey!"
+            },
+            {
+                "id" : 4,
+                "sentence" : "Welcome to the Murfree Show! I am your host Connor Murfree. I’m sure you all know tonight is our finale for season 3. We have some great entertainment for you on tonight’s show. So for the last time, let me welcome my favorite, fabulous, marvelous and terrific co-host Brooke Grimsey!"
+            }
+        ]
+    },
+    "part2" : {
+        "directions" : "Directions: In this part of the test, you will describe the picture on your screen in as much detail as you can. You will have 30 seconds to prepare your response. Then you will have 45 seconds to speak about the picture.",
+        "pictures" : [
+            {
+                "id" : 1,
+                "picture" : "http://postfiles12.naver.net/20130309_11/xotmy_136284118293630Nmu_JPEG/%B1%E2%C3%E2.jpg?type=w2"
+            },
+            {
+                "id" : 2,
+                "picture" : "http://postfiles8.naver.net/20130309_7/xotmy_136284118328189sHF_JPEG/%B1%E2%C3%E2_13%B3%E2_0217.jpg?type=w2"
+            },
+            {
+                "id" : 3,
+                "picture" : "http://postfiles13.naver.net/20130309_220/xotmy_1362841183847b6tq9_JPEG/%B1%E2%C3%E2_130216.jpg?type=w2"
+            },
+            {
+                "id" : 4,
+                "picture" : "http://postfiles4.naver.net/20130309_275/xotmy_1362841184258FQnzX_JPEG/%B1%E2%C3%E2_654654.jpg?type=w2"
+            },
+            {
+                "id" : 5,
+                "picture" : "http://postfiles5.naver.net/20130309_164/xotmy_1362841185746qJrf3_JPEG/%B1%E2%C3%E2_naver_com_20130303_001937.jpg?type=w2"
+            }
+        ]
+    },
+    "part3" : [
+        {
+            "directions" : "Directions: In this part of the test, you will answer the three questions. For each question, begin responding immediately after you hear the beep. You will have 3 seconds to prepare each question. You will have 15 seconds to respond to Questions 4 and 5 and 30 seconds to respond to Question 6.",
+            "questions" : {
+                "id" : 1,
+                "situation" : "Imagine that Life Magazine is doing research on travelling. You have agreed to participate in a telephone interview about travelling by train.",
+                "q4" : "How often do you travel by train?",
+                "q5" : "When travelling by train, would you prefer to buy tickets on the Internet or in person? Why?",
+                "q6" : "Which of the following would you use most often to find out information about the train schedule? Why?",
+                "selections" : [
+                    "An online schedule", 
+                    "A printed schedule to carry with you",
+                    "A schedule posted in the station"
+                ]
+            }
+        }
+    ]
+}
