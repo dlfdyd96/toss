@@ -65,7 +65,7 @@ vue add vuetify
 ## [❌] Login
 
 ## [🛠] Solve
-### Part1
+### [🛠]Part1
 - 🛠⏱ Timer Component 따로 팠다. 아우 진짜 귀찮아 [(참고사이트)](https://moonspam.github.io/Lets-make-a-Timer/)
   - ✔ props 로 시간 떤져주면 그 시간에 맞춰 timer 작동
   - 🛠 mounted 되면 Description 읽기 -> 45초 Preparation -> 45초 Response
@@ -93,6 +93,6 @@ vue add vuetify
 - ❌ Description 추가
 - ❌ 표 추가
 
-### Part5
+### [❌]Part5
 
-### Part6
+### [❌]Part6
