@@ -4,7 +4,7 @@
 - [✔] Vue Setting
 - [✔] App
 - [✔] Home
-- [❌] Login
+- [🛠] Login
 - [🛠] 문제풀기
 - [❌] 학습현황
 - [❌] 시험 일정
@@ -62,7 +62,11 @@ vue add vuetify
 - [✔]v-for로 menu 설정
   - ```['문제풀기', '학습현황', '시험 일정', '토스 지원하기']```
 
-## [❌] Login
+## [🛠] Login
+- JWT Token 으로 하고 있는데,, server 든 client 든 예외처리가 필요할 것 같다.
+- localStorage에 저장하고있음.
+- ExpireIn 설정 할것
+  
 
 ## [🛠] Solve
 ### [🛠]Part1

@@ -20,12 +20,12 @@
             <v-btn v-if="resetButton" class="ma-4" color="red" fab depressed
                 @click="resetTimer"
             >
-                <v-icon large class="white--text">mic</v-icon>
+                <v-icon large class="white--text">fas fa-microphone</v-icon>
             </v-btn>
             <v-btn v-else class="ma-4" fab dark depressed
                 @click="startTimer"
             >
-                <v-icon large dark>mic_none</v-icon>
+                <v-icon large dark class="white--text">fas fa-microphone</v-icon>
             </v-btn>
         </div>
 

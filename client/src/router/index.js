@@ -5,6 +5,8 @@ import Solve from '../views/Solve.vue'
 import Status from '../views/Status.vue'
 import Schedule from '../views/Schedule.vue'
 import Apply from '../views/Apply.vue'
+import Login from '../views/Login.vue'
+import Me from '../views/Me.vue'
 
 import SolveHome from '../components/SolveHome'
 import Part1 from '../components/Part1'
@@ -14,13 +16,31 @@ import Part4 from '../components/Part4'
 import Part5 from '../components/Part5'
 import Part6 from '../components/Part6'
 
-Vue.use(VueRouter)
+import store from '../store'
 
+const requireAuth = () => (to, from, next) => {
+  if (store.getters.isAuthenticated)
+    return next()
+  next('/login?returnPath=me')
+}
+
+Vue.use(VueRouter)
   const routes = [
   {
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/login',
+    name: 'Login',
+    component: Login
+  },
+  {
+    path: '/me',
+    name: 'Me',
+    component: Me,
+    beforeEnter: requireAuth
   },
   {
     path: '/solve',

@@ -22,8 +22,8 @@
       >
         <v-card-title class="grey darken-2 white--text py-0">Questions 3 of 11</v-card-title>
           <v-card class="ma-4">
-
-          <v-img :src="pictures[currentPage].picture"></v-img>  
+          
+            <v-img :src="pictures[currentPage].picture"></v-img>  
           </v-card>
         <!-- Componets : Time !! -->     
         <div 

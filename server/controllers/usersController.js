@@ -10,13 +10,15 @@ const expiresIn = 60 * 60; // 60 min
 export const createToken = async (req, res, next) => {
     try {
         const user = await User.find(req.body); // req.body : {id, pw}
-        
+        console.log(req.body);
         // find!
         if(user.length) { 
-            const token = jwt.sign({ user_id: user[0].user_id }, YOUR_SECRET_KEY, { expiresIn })
+            const token = jwt.sign({ user_id: user[0].user_id }, 
+                YOUR_SECRET_KEY, 
+                { expiresIn })
             
-            // Cookie 먹어랏
-            res.cookie('user', token);
+            
+            // res.cookie('user', token);
             res.status(201).json({
                 result: 'OK',
                 token
@@ -36,6 +38,7 @@ export const createNewUser = async (req, res, next) => {
         const user = await new User(req.body).save();
 
         // jwt 만들어서 주까? 
+        console.log(req.body);
         
         res.status(201).json({
             result : 'OK',
@@ -44,5 +47,19 @@ export const createNewUser = async (req, res, next) => {
     } catch(err) {
         console.log(`controller - createNewUser Error : ${err}`);
         next(err);
+    }
+}
+
+
+// /me
+export const getUserInfo = async (req, res, next) => {
+    try {
+        const user = await User.findById(req.user.id);
+        res.status(200).json({
+            result: 'OK',
+            user: user
+        })
+    } catch(err) {
+        console.log(`error with Controller- getUserInfo : ${err}`)
     }
 }
